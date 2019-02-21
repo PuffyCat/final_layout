@@ -8,6 +8,7 @@
 
 .container {
     width: 1920px;
+    margin: 0 auto;
 }
 
 
@@ -186,7 +187,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-  
 }
 
 .marketing-item {
@@ -195,7 +195,50 @@
 }
 
 .marketing-icon {
-    background-image: url()
+    display: block;
+    margin: 0 auto;
+    background-image: url(../img/css_sprites_market_ico.png);
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.icon-app {
+    width: 49px;
+    height: 49px;
+    background-position: -176px;
+}
+
+.icon-app:hover {
+    background-position: -225px;
+}
+
+.icon-dev {
+    width: 44px;
+    height: 49px;
+}
+
+.icon-dev:hover {
+    background-position: -44px;
+}
+
+.icon-custom {
+    width: 45px;
+    height: 49px;
+    background-position: -88px;
+}
+
+.icon-custom:hover {
+    background-position: -132px;
+}
+
+.icon-market {
+    width: 52px;
+    height: 49px;
+    background-position: -274px;
+}
+
+.icon-market:hover {
+    background-position: -326px;
 }
 
 .marketing-title {

@@ -7,7 +7,7 @@
 }
 
 .container {
-   min-width: 1280px;
+    min-width: 1280px;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -30,7 +30,6 @@
     justify-content: center;
     padding: 40px 40px 40px 40px;
     box-sizing: border-box;
-    
     z-index: 1;
     position: absolute;
 }
@@ -38,7 +37,6 @@
 .logo {
     padding: 10px 210px 5px 64px;
     box-sizing: border-box;
-    
 }
 
 .logo a {
@@ -80,7 +78,6 @@
     justify-content: space-between;
     padding: 20px 0 5px 0;
     box-sizing: border-box;
-   
 }
 
 .header-menu a {
@@ -99,7 +96,6 @@
     flex-direction: row;
     padding: 20px 0 10px 30px;
     box-sizing: border-box;
-    
 }
 
 .store {
@@ -140,7 +136,8 @@
 .slider-wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 382px 0 382px 0;
+    padding: 382px 0 382px 0;
+    box-sizing: border-box;
     width: 589px;
 }
 
@@ -212,14 +209,16 @@
 
 .marketing-item {
     width: 266px;
-    margin: 80px 0 80px 0;
+    padding: 80px 16px 80px 16px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .marketing-icon {
     display: block;
-    margin: 0 auto;
     background-image: url(../img/css_sprites_market_ico.png);
     background-repeat: no-repeat;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 

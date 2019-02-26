@@ -47,6 +47,9 @@
     font-weight: 400;
     text-align: left;
     text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo span {
@@ -54,17 +57,8 @@
     position: relative;
 }
 
-.logo span:before {
-    content: "";
-    background-image: url(../img/header_logo.png);
-    background-repeat: repeat;
-    background-size: 64px 56px;
-    width: 64px;
-    height: 56px;
-    display: block;
-    position: absolute;
-    top: -10px;
-    left: -64px;
+.logo-icon {
+    fill: #fff;
 }
 
 .header-menu_wrapper {
@@ -89,6 +83,10 @@
     font-weight: 300;
     text-align: center;
     margin-right: 30px;
+}
+
+.header-menu a:hover {
+    color: #c7b29a;
 }
 
 .header-links {
@@ -171,21 +169,27 @@
 }
 
 .slider-btn {
+    display: flex;
     margin: 0 auto;
-    border: none;
+    padding: 0 35px 0 35px;
+    box-sizing: border-box;
     border-radius: 3px;
     border-bottom: 4px solid #736357;
     background-color: #998675;
-    width: 170px;
-    height: 53px;
+    max-width: 589px;
+    min-height: 53px;
+    text-decoration: none;
+}
+
+.slider-btn_text {
+    margin: auto;
     font-family: Raleway;
     font-size: 14px;
     color: #ffffff;
     font-weight: 700;
-    line-height: 53px;
+    line-height: 23px;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .slider-btn:hover {
@@ -193,8 +197,15 @@
     color: #998675;
 }
 
+.slider-btn:hover .slider-btn_text {
+    color: #998675;
+}
+
 .slider-btn:active {
     background-color: #998675;
+}
+
+.slider-btn:active .slider-btn_text {
     color: #ffffff;
 }
 
@@ -298,7 +309,7 @@
     margin: 0 auto;
     position: relative;
     background-image: url(../img/background_center.jpg), url(../img/background_left.jpg), url(../img/background_right.jpg);
-    background-position: bottom center, bottom left 123px , bottom right 123px;
+    background-position: bottom center, bottom left 123px, bottom right 123px;
     background-repeat: no-repeat;
 }
 
@@ -377,6 +388,17 @@
 }
 
 .purchase_btn {
+    display: flex;
+    text-decoration: none;
+    border-bottom: 4px solid #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    padding: 0 35px 0 35px;
+    min-width: 170px;
+    min-height: 50px;
+}
+
+.purchase_btn_text {
     font-family: Raleway;
     color: #ffffff;
     font-size: 14px;
@@ -384,21 +406,22 @@
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none;
-    border-bottom: 4px solid #736357;
-    border-radius: 3px;
-    background-color: #998675;
-    width: 170px;
-    height: 50px;
+    margin: auto;
 }
 
 .purchase_btn:hover {
     background-color: #ffffff;
-    color: #998675;
 }
 
 .purchase_btn:active {
     background-color: #998675;
+}
+
+.purchase_btn:hover .purchase_btn_text {
+    color: #998675;
+}
+
+.purchase_btn:active .purchase_btn_text {
     color: #ffffff;
 }
 
@@ -411,7 +434,6 @@
     flex-wrap: wrap;
     padding: 80px 0 80px 0;
     outline: 2px solid red;
-    
 }
 
 .projects-wrapper {
@@ -486,6 +508,17 @@
 
 .projects-btn {
     margin: 0 auto;
+    padding: 0 35px 0 35px;
+    display: flex;
+    text-decoration: none;
+    border-bottom: 4px solid #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    min-width: 170px;
+    min-height: 50px;
+}
+
+.projects-btn_text {
     font-family: Raleway;
     color: #ffffff;
     font-size: 14px;
@@ -493,20 +526,21 @@
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none;
-    border-bottom: 4px solid #736357;
-    border-radius: 3px;
-    background-color: #998675;
-    width: 170px;
-    height: 50px;
+    margin: auto;
 }
 
 .projects-btn:hover {
     background-color: #f1eee9;
-    color: #998675;
 }
 
 .projects-btn:active {
     background-color: #998675;
+}
+
+.projects-btn:hover .projects-btn_text {
+    color: #998675;
+}
+
+.projects-btn:active .projects-btn_text {
     color: #ffffff;
 }

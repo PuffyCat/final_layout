@@ -450,13 +450,11 @@
     display: flex;
     flex-direction: column;
     padding: 80px 0 80px 0;
-   
 }
 
 .projects-wrapper {
     width: 757px;
     margin: 0 auto;
-   
 }
 
 .projects-title {
@@ -467,7 +465,6 @@
     font-size: 30px;
     font-weight: 600;
     text-align: center;
-   
 }
 
 .projects-text {
@@ -478,7 +475,6 @@
     font-weight: 300;
     line-height: 28px;
     text-align: center;
-    
 }
 
 .projects-menu {
@@ -488,7 +484,6 @@
     justify-content: center;
     padding: 40px 0 40px 0;
     box-sizing: border-box;
-    
 }
 
 .projects-menu a {
@@ -496,7 +491,7 @@
     border: 1px solid #ebebeb;
     box-sizing: border-box;
     background-color: #ffffff;
-    padding:0 20px 0 20px;
+    padding: 0 20px 0 20px;
     margin: 0 5px 0 5px;
     height: 32px;
     text-decoration: none;
@@ -507,7 +502,6 @@
     font-weight: 300;
     line-height: 26px;
     text-align: center;
-    
 }
 
 .projects-menu a:hover {
@@ -570,9 +564,12 @@
     flex-direction: column;
     width: 370px;
     margin: 0 15px 30px 15px;
+    
 }
 
-.project-item_img {}
+.project-item_img {
+   
+}
 
 .project-item_description {
     background-color: #fbfaf8;
@@ -583,17 +580,16 @@
     position: relative;
 }
 
-.project-item_description p {
+.description-title {
     font-family: Raleway;
     color: #c7b29a;
     font-size: 20px;
     font-weight: 500;
     text-align: left;
     text-transform: capitalize;
-    margin: 0 0 3px 0;
 }
 
-.project-item_description span {
+.description-text {
     font-family: Montserrat;
     color: #d1d1d1;
     font-size: 14px;
@@ -601,6 +597,7 @@
     line-height: 20px;
     text-align: left;
     text-transform: capitalize;
+    margin: 2px 0 0 0;
 }
 
 .project-item_description:before {
@@ -611,3 +608,24 @@
     border: 20px solid transparent;
     border-bottom: 13px solid #fbfaf8;
 }
+
+.project-item:hover .project-item_description {
+    background-color: #362f2d;
+}
+
+.project-item:hover .description-title {
+    color: #ffffff;
+}
+
+.project-item:hover .description-text {
+    color: #c7b299;
+}
+
+.project-item:hover .project-item_description:before {
+    border-bottom: 13px solid #362f2d;
+}
+
+.project-item:hover .img-hover-elements {
+    opacity: 1;
+}
+

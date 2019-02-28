@@ -641,14 +641,14 @@
     align-items: center;
     position: absolute;
     z-index: 3;
-    background-color: #242424;
+    background-color: rgba(36, 36, 36, 0.7);
     width: 370px;
     height: 237px;
     opacity: 0;
 }
 
 .project-item:hover .project-img_link {
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .project-img_link a {
@@ -665,4 +665,87 @@
 
 .project-svg-icon:hover {
     fill: #c7b299;
+}
+
+
+/* Блок "Video"*/
+
+.video_main {
+    width: 100%;
+    display: flex;
+    position: relative;
+    outline: 2px solid red;
+    justify-content: center;
+}
+
+.video_main video {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.video-description_wrapper {
+    width: 552px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    box-sizing: border-box;
+    outline: 2px solid red;
+}
+
+.video-description_btn {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    border-radius: 50%;
+    border: none;
+    width: 100px;
+    height: 100px;
+    margin: 44px;
+    outline: none;
+}
+
+.video-icon_svg {
+    fill: #ffffff;
+    vertical-align: middle;
+}
+
+.video-icon_svg:hover {
+    fill: #c7b299;
+}
+
+.video-icon_svg:active {
+    fill: #ffffff;
+}
+
+.video-description_title {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.video-description_text {
+    width: 100%;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+.video-description_time {
+    font-family: Montserrat;
+    color: #c7b299;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 100%;
 }

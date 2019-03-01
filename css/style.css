@@ -59,6 +59,8 @@
 
 .logo-icon {
     fill: #fff;
+    width: 64px;
+    height: 56px;
 }
 
 .header-menu_wrapper {
@@ -680,8 +682,6 @@
 
 .video_main video {
     width: 100%;
-    position: absolute;
-    z-index: -1;
 }
 
 .video-description_wrapper {
@@ -689,9 +689,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 100px 0 0 0;
-    box-sizing: border-box;
     outline: 2px solid red;
+    position: absolute;
+    z-index: 1;
 }
 
 .video-description_btn {

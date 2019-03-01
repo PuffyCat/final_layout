@@ -1,241 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <link rel="stylesheet" href="./css/normalize.css">
-      <link rel="stylesheet" href="./css/style.css">
-      <title>Waxom-landing</title>
-   </head>
-   <body>
-      <div class="container">
-         <header class="header-main">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Waxom-landing</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header-main">
             <div class="header">
-               <div class="logo">
-                  <a href="index.html">
-                     <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="56px" viewBox="0 0 64 56">
-                        <path fillRule="evenodd" d="M 52.87 55.13C 52.87 55.13 58.13 45.94 58.13 45.94 58.13 45.94 63.38 55.13 63.38 55.13 63.38 55.13 52.87 55.13 52.87 55.13ZM 46.3 45.17C 46.3 45.17 56.81 45.17 56.81 45.17 56.81 45.17 51.56 54.36 51.56 54.36 51.56 54.36 46.3 45.17 46.3 45.17ZM 51.56 34.45C 51.56 34.45 56.81 43.64 56.81 43.64 56.81 43.64 46.3 43.64 46.3 43.64 46.3 43.64 51.56 34.45 51.56 34.45ZM 39.74 33.69C 39.74 33.69 50.24 33.69 50.24 33.69 50.24 33.69 44.99 42.87 44.99 42.87 44.99 42.87 39.74 33.69 39.74 33.69ZM 44.99 22.97C 44.99 22.97 50.24 32.15 50.24 32.15 50.24 32.15 39.74 32.15 39.74 32.15 39.74 32.15 44.99 22.97 44.99 22.97ZM 33.17 22.2C 33.17 22.2 43.68 22.2 43.68 22.2 43.68 22.2 38.42 31.39 38.42 31.39 38.42 31.39 33.17 22.2 33.17 22.2ZM 38.42 11.48C 38.42 11.48 43.68 20.67 43.68 20.67 43.68 20.67 33.17 20.67 33.17 20.67 33.17 20.67 38.42 11.48 38.42 11.48ZM 26.6 10.71C 26.6 10.71 37.11 10.71 37.11 10.71 37.11 10.71 31.85 19.9 31.85 19.9 31.85 19.9 26.6 10.71 26.6 10.71ZM 31.85-0.01C 31.85-0.01 37.11 9.18 37.11 9.18 37.11 9.18 26.6 9.18 26.6 9.18 26.6 9.18 31.85-0.01 31.85-0.01ZM 20.03 20.67C 20.03 20.67 25.29 11.48 25.29 11.48 25.29 11.48 30.54 20.67 30.54 20.67 30.54 20.67 20.03 20.67 20.03 20.67ZM 13.46 32.15C 13.46 32.15 18.72 22.97 18.72 22.97 18.72 22.97 23.97 32.15 23.97 32.15 23.97 32.15 13.46 32.15 13.46 32.15ZM 6.9 43.64C 6.9 43.64 12.15 34.45 12.15 34.45 12.15 34.45 17.4 43.64 17.4 43.64 17.4 43.64 6.9 43.64 6.9 43.64ZM 0.33 55.13C 0.33 55.13 5.58 45.94 5.58 45.94 5.58 45.94 10.84 55.13 10.84 55.13 10.84 55.13 0.33 55.13 0.33 55.13ZM 17.4 45.17C 17.4 45.17 12.15 54.36 12.15 54.36 12.15 54.36 6.9 45.17 6.9 45.17 6.9 45.17 17.4 45.17 17.4 45.17ZM 23.97 33.69C 23.97 33.69 18.72 42.87 18.72 42.87 18.72 42.87 13.46 33.69 13.46 33.69 13.46 33.69 23.97 33.69 23.97 33.69ZM 30.54 22.2C 30.54 22.2 25.29 31.39 25.29 31.39 25.29 31.39 20.03 22.2 20.03 22.2 20.03 22.2 30.54 22.2 30.54 22.2ZM 37.11 55.13C 37.11 55.13 26.6 55.13 26.6 55.13 26.6 55.13 31.85 45.94 31.85 45.94 31.85 45.94 37.11 55.13 37.11 55.13ZM 43.68 45.17C 43.68 45.17 38.42 54.36 38.42 54.36 38.42 54.36 33.17 45.17 33.17 45.17 33.17 45.17 43.68 45.17 43.68 45.17ZM 50.24 55.13C 50.24 55.13 39.74 55.13 39.74 55.13 39.74 55.13 44.99 45.94 44.99 45.94 44.99 45.94 50.24 55.13 50.24 55.13Z" />
-                     </svg>
-                     <span>waxom</span>
-                  </a>
-               </div>
-               <div class="header-menu_wrapper">
-                  <nav class="header-menu"> <a href="#">home</a> <a href="#">about&nbsp;us</a> <a href="#">portfolio</a> <a href="#">features</a> <a href="#">blog</a> <a href="#">pricing</a> <a href="#">shjrtcodes</a> <a href="#">contact</a> </nav>
-                  <div class="header-links">
-                     <a href="#" class="store"></a>
-                     <a href="#" class="search"></a>
-                  </div>
-               </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 56">
+                            <path d="M 52.87 55.13C 52.87 55.13 58.13 45.94 58.13 45.94 58.13 45.94 63.38 55.13 63.38 55.13 63.38 55.13 52.87 55.13 52.87 55.13ZM 46.3 45.17C 46.3 45.17 56.81 45.17 56.81 45.17 56.81 45.17 51.56 54.36 51.56 54.36 51.56 54.36 46.3 45.17 46.3 45.17ZM 51.56 34.45C 51.56 34.45 56.81 43.64 56.81 43.64 56.81 43.64 46.3 43.64 46.3 43.64 46.3 43.64 51.56 34.45 51.56 34.45ZM 39.74 33.69C 39.74 33.69 50.24 33.69 50.24 33.69 50.24 33.69 44.99 42.87 44.99 42.87 44.99 42.87 39.74 33.69 39.74 33.69ZM 44.99 22.97C 44.99 22.97 50.24 32.15 50.24 32.15 50.24 32.15 39.74 32.15 39.74 32.15 39.74 32.15 44.99 22.97 44.99 22.97ZM 33.17 22.2C 33.17 22.2 43.68 22.2 43.68 22.2 43.68 22.2 38.42 31.39 38.42 31.39 38.42 31.39 33.17 22.2 33.17 22.2ZM 38.42 11.48C 38.42 11.48 43.68 20.67 43.68 20.67 43.68 20.67 33.17 20.67 33.17 20.67 33.17 20.67 38.42 11.48 38.42 11.48ZM 26.6 10.71C 26.6 10.71 37.11 10.71 37.11 10.71 37.11 10.71 31.85 19.9 31.85 19.9 31.85 19.9 26.6 10.71 26.6 10.71ZM 31.85-0.01C 31.85-0.01 37.11 9.18 37.11 9.18 37.11 9.18 26.6 9.18 26.6 9.18 26.6 9.18 31.85-0.01 31.85-0.01ZM 20.03 20.67C 20.03 20.67 25.29 11.48 25.29 11.48 25.29 11.48 30.54 20.67 30.54 20.67 30.54 20.67 20.03 20.67 20.03 20.67ZM 13.46 32.15C 13.46 32.15 18.72 22.97 18.72 22.97 18.72 22.97 23.97 32.15 23.97 32.15 23.97 32.15 13.46 32.15 13.46 32.15ZM 6.9 43.64C 6.9 43.64 12.15 34.45 12.15 34.45 12.15 34.45 17.4 43.64 17.4 43.64 17.4 43.64 6.9 43.64 6.9 43.64ZM 0.33 55.13C 0.33 55.13 5.58 45.94 5.58 45.94 5.58 45.94 10.84 55.13 10.84 55.13 10.84 55.13 0.33 55.13 0.33 55.13ZM 17.4 45.17C 17.4 45.17 12.15 54.36 12.15 54.36 12.15 54.36 6.9 45.17 6.9 45.17 6.9 45.17 17.4 45.17 17.4 45.17ZM 23.97 33.69C 23.97 33.69 18.72 42.87 18.72 42.87 18.72 42.87 13.46 33.69 13.46 33.69 13.46 33.69 23.97 33.69 23.97 33.69ZM 30.54 22.2C 30.54 22.2 25.29 31.39 25.29 31.39 25.29 31.39 20.03 22.2 20.03 22.2 20.03 22.2 30.54 22.2 30.54 22.2ZM 37.11 55.13C 37.11 55.13 26.6 55.13 26.6 55.13 26.6 55.13 31.85 45.94 31.85 45.94 31.85 45.94 37.11 55.13 37.11 55.13ZM 43.68 45.17C 43.68 45.17 38.42 54.36 38.42 54.36 38.42 54.36 33.17 45.17 33.17 45.17 33.17 45.17 43.68 45.17 43.68 45.17ZM 50.24 55.13C 50.24 55.13 39.74 55.13 39.74 55.13 39.74 55.13 44.99 45.94 44.99 45.94 44.99 45.94 50.24 55.13 50.24 55.13Z" /> </svg> <span>waxom</span> </a>
+                </div>
+                <div class="header-menu_wrapper">
+                    <nav class="header-menu"> <a href="#">home</a> <a href="#">about&nbsp;us</a> <a href="#">portfolio</a> <a href="#">features</a> <a href="#">blog</a> <a href="#">pricing</a> <a href="#">shjrtcodes</a> <a href="#">contact</a> </nav>
+                    <div class="header-links">
+                        <a href="#" class="store"></a>
+                        <a href="#" class="search"></a>
+                    </div>
+                </div>
             </div>
             <div class="slider">
-               <div class="slider-wrapper">
-                  <span class="slider-text">Unique and Modern Design</span> <span class="slider-title">Portfolio PSD Template</span>
-                  <p class="slider-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod consectetur adipisicing elit.</p>
-                  <a href="#" class="slider-btn"><span class="slider-btn_text">get started</span></a> 
-               </div>
+                <div class="slider-wrapper"> <span class="slider-text">Unique and Modern Design</span> <span class="slider-title">Portfolio PSD Template</span>
+                    <p class="slider-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod consectetur adipisicing elit.</p> <a href="#" class="slider-btn"><span class="slider-btn_text">get started</span></a> </div>
             </div>
-         </header>
-         <main>
+        </header>
+        <main>
             <section class="marketing">
-               <div class="marketing-item">
-                  <div class="marketing-icon icon-app"></div>
-                  <span class="marketing-title">Web and App Design</span>
-                  <p class="marketing-text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur.</p>
-               </div>
-               <div class="marketing-item">
-                  <div class="marketing-icon icon-dev"></div>
-                  <span class="marketing-title">Development</span>
-                  <p class="marketing-text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur.</p>
-               </div>
-               <div class="marketing-item">
-                  <div class="marketing-icon icon-custom"></div>
-                  <span class="marketing-title">Customisation</span>
-                  <p class="marketing-text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur.</p>
-               </div>
-               <div class="marketing-item">
-                  <div class="marketing-icon icon-market"></div>
-                  <span class="marketing-title">Marketing</span>
-                  <p class="marketing-text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur.</p>
-               </div>
+                <div class="marketing-item">
+                    <div class="marketing-icon icon-app"></div> <span class="marketing-title">Web and App Design</span>
+                    <p class="marketing-text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+                <div class="marketing-item">
+                    <div class="marketing-icon icon-dev"></div> <span class="marketing-title">Development</span>
+                    <p class="marketing-text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+                <div class="marketing-item">
+                    <div class="marketing-icon icon-custom"></div> <span class="marketing-title">Customisation</span>
+                    <p class="marketing-text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+                <div class="marketing-item">
+                    <div class="marketing-icon icon-market"></div> <span class="marketing-title">Marketing</span>
+                    <p class="marketing-text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
             </section>
             <section class="ideas">
-               <div class="ideas-wrapper">
-                  <span class="ideas-title">Waxom is Realization of your Ideas</span>
-                  <p class="ideas-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eligendi tempora eius illum autem, reiciendis quod dolor, reprehenderit ullam, omnis sed! </p>
-               </div>
-               <div class="background-image"></div>
+                <div class="ideas-wrapper"> <span class="ideas-title">Waxom is Realization of your Ideas</span>
+                    <p class="ideas-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eligendi tempora eius illum autem, reiciendis quod dolor, reprehenderit ullam, omnis sed! </p>
+                </div>
+                <div class="background-image"></div>
             </section>
             <aside class="purchase">
-               <div class="purchase_wrapper">
-                  <span class="purchase_title">Multipurpose WorldPress Theme</span>
-                  <p class="purchase_text">Dont Forget to Rate the Tmplate. Thanks so much&#33;</p>
-               </div>
-               <a href="#" class="purchase_btn"><span class="purchase_btn_text">purchase now</span></a> 
-            </aside>
+                <div class="purchase_wrapper"> <span class="purchase_title">Multipurpose WorldPress Theme</span>
+                    <p class="purchase_text">Dont Forget to Rate the Tmplate. Thanks so much&#33;</p>
+                </div> <a href="#" class="purchase_btn"><span class="purchase_btn_text">purchase now</span></a> </aside>
             <section class="projects">
-               <div class="projects-wrapper">
-                  <span class="projects-title">Our Latest Projects.</span>
-                  <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, nam, mollitia tempora magni laudantium quisquam. </p>
-               </div>
-               <nav class="projects-menu"> <a href="#" class="projects-menu_item">all</a> <a href="#" class="projects-menu_item">web design</a> <a href="#" class="projects-menu_item">mobile app</a> <a href="#" class="projects-menu_item">illustration</a> <a href="#" class="projects-menu_item">photography</a> </nav>
-               <div class="projects-item_wrapper">
-                  <article class="project-item">
-                     <div class="project-img">
-                        <img src="./img/project_1_img.jpg" width="370px" height="237px" alt="project-item_img" class="project-img">
-                        <div class="project-img_link">
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#link"></use>
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#lupa"></use>
-                              </svg>
-                           </a>
+                <div class="projects-wrapper"> <span class="projects-title">Our Latest Projects.</span>
+                    <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, nam, mollitia tempora magni laudantium quisquam. </p>
+                </div>
+                <nav class="projects-menu"> <a href="#" class="projects-menu_item">all</a> <a href="#" class="projects-menu_item">web design</a> <a href="#" class="projects-menu_item">mobile app</a> <a href="#" class="projects-menu_item">illustration</a> <a href="#" class="projects-menu_item">photography</a> </nav>
+                <div class="projects-item_wrapper">
+                    <article class="project-item">
+                        <div class="project-img"> <img src="./img/project_1_img.jpg" alt="project-item_img" class="project-img">
+                            <div class="project-img_link">
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#link"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#lupa"></use>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                     </div>
-                     <div class="project-item_description">
-                        <span class="description-title">claritas etiam processus</span>
-                        <p class="description-text">photography. nature</p>
-                     </div>
-                  </article>
-                  <article class="project-item">
-                     <div class="project-img">
-                        <img src="./img/project_2_img.jpg" width="370px" height="237px" alt="project-item_img" class="project-img">
-                        <div class="project-img_link">
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#link"></use>
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#lupa"></use>
-                              </svg>
-                           </a>
+                        <div class="project-item_description"> <span class="description-title">claritas etiam processus</span>
+                            <p class="description-text">photography. nature</p>
                         </div>
-                     </div>
-                     <div class="project-item_description">
-                        <span class="description-title">quam nutamus farum</span>
-                        <p class="description-text">graphic design. mock&#45;up</p>
-                     </div>
-                  </article>
-                  <article class="project-item">
-                     <div class="project-img">
-                        <img src="./img/project_3_img.jpg" width="370px" height="237px" alt="project-item_img" class="project-img">
-                        <div class="project-img_link">
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#link"></use>
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#lupa"></use>
-                              </svg>
-                           </a>
+                    </article>
+                    <article class="project-item">
+                        <div class="project-img"> <img src="./img/project_2_img.jpg" alt="project-item_img" class="project-img">
+                            <div class="project-img_link">
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#link"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#lupa"></use>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                     </div>
-                     <div class="project-item_description">
-                        <span class="description-title">usus legentis videntur</span>
-                        <p class="description-text">photography. holiday</p>
-                     </div>
-                  </article>
-                  <article class="project-item">
-                     <div class="project-img">
-                        <img src="./img/project_4_img.jpg" width="370px" height="237px" alt="project-item_img" class="project-img">
-                        <div class="project-img_link">
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#link"></use>
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#lupa"></use>
-                              </svg>
-                           </a>
+                        <div class="project-item_description"> <span class="description-title">quam nutamus farum</span>
+                            <p class="description-text">graphic design. mock&#45;up</p>
                         </div>
-                     </div>
-                     <div class="project-item_description">
-                        <span class="description-title">claritas etiam processus</span>
-                        <p class="description-text">photography. nature</p>
-                     </div>
-                  </article>
-                  <article class="project-item">
-                     <div class="project-img">
-                        <img src="./img/project_5_img.jpg" width="370px" height="237px" alt="project-item_img" class="project-img">
-                        <div class="project-img_link">
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#link"></use>
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#lupa"></use>
-                              </svg>
-                           </a>
+                    </article>
+                    <article class="project-item">
+                        <div class="project-img"> <img src="./img/project_3_img.jpg" alt="project-item_img" class="project-img">
+                            <div class="project-img_link">
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#link"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#lupa"></use>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                     </div>
-                     <div class="project-item_description">
-                        <span class="description-title">quam nutamus farum</span>
-                        <p class="description-text">graphic design. mock&#45;up</p>
-                     </div>
-                  </article>
-                  <article class="project-item">
-                     <div class="project-img">
-                        <img src="./img/project_6_img.jpg" width="370px" height="237px" alt="project-item_img" class="project-img">
-                        <div class="project-img_link">
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#link"></use>
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg class="project-svg-icon">
-                                 <use xlink:href="#lupa"></use>
-                              </svg>
-                           </a>
+                        <div class="project-item_description"> <span class="description-title">usus legentis videntur</span>
+                            <p class="description-text">photography. holiday</p>
                         </div>
-                     </div>
-                     <div class="project-item_description">
-                        <span class="description-title">usus legentis videntur</span>
-                        <p class="description-text">photography. holiday</p>
-                     </div>
-                  </article>
-               </div>
-               <a href="#" class="projects-btn"><span class="projects-btn_text">load more</span></a>
-               <!-- SVG-sprite  -->
-               <div style="display: none;">
-                  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                     <symbol id="link" viewBox="0 0 26 26" width="26px" height="26px">
-                        <path fillRule="evenodd" d="M 23.5 11.24C 23.5 11.24 21.57 13.17 21.57 13.17 21.57 13.17 18.39 16.36 18.39 16.36 18.23 16.53 18.05 16.68 17.87 16.82 16.1 18.22 13.75 18.52 11.72 17.72 10.97 17.43 10.26 16.97 9.64 16.36 9.64 16.36 12.28 13.71 12.28 13.71 13.24 14.67 14.79 14.67 15.74 13.71 15.74 13.71 17.77 11.69 17.77 11.69 17.77 11.69 20.86 8.6 20.86 8.6 21.81 7.64 21.81 6.09 20.86 5.14 19.9 4.18 18.35 4.18 17.4 5.14 17.4 5.14 14.94 7.59 14.94 7.59 13.41 6.88 11.65 6.76 10.03 7.22 10.03 7.22 14.76 2.49 14.76 2.49 17.16 0.09 21.1 0.09 23.5 2.49 25.92 4.91 25.92 8.84 23.5 11.24ZM 14.26 8.29C 15.01 8.58 15.73 9.04 16.34 9.66 16.34 9.66 13.7 12.3 13.7 12.3 12.74 11.35 11.19 11.35 10.24 12.3 10.24 12.3 5.13 17.42 5.13 17.42 4.17 18.37 4.17 19.92 5.13 20.88 6.08 21.83 7.63 21.83 8.59 20.88 8.59 20.88 10.94 18.52 10.94 18.52 12.95 19.33 13.49 19.39 15.85 18.85 15.85 18.85 11.23 23.52 11.23 23.52 8.82 25.93 4.89 25.93 2.48 23.52 0.08 21.12 0.08 17.18 2.48 14.77 2.48 14.77 7.6 9.66 7.6 9.66 7.67 9.59 7.75 9.5 7.84 9.43 9.63 7.83 12.13 7.44 14.26 8.29Z" />
-                     </symbol>
-                     <symbol id="lupa" viewBox="0 0 26 25" width="26px" height="25px">
-                        <path fillRule="evenodd" d="M 25.46 24.17C 25.14 24.49 24.71 24.65 24.29 24.65 23.87 24.65 23.45 24.49 23.13 24.17 23.13 24.17 18.79 19.9 18.79 19.9 16.9 21.35 14.53 22.22 11.96 22.22 5.79 22.22 0.78 17.28 0.78 11.2 0.78 5.13 5.79 0.19 11.96 0.19 18.12 0.19 23.14 5.13 23.14 11.2 23.14 13.57 22.37 15.76 21.07 17.56 21.07 17.56 25.46 21.88 25.46 21.88 26.1 22.51 26.1 23.54 25.46 24.17ZM 11.96 2.78C 7.24 2.78 3.41 6.56 3.41 11.2 3.41 15.85 7.24 19.63 11.96 19.63 14.06 19.63 15.99 18.87 17.48 17.62 17.94 17.24 18.36 16.81 18.72 16.34 19.84 14.91 20.51 13.13 20.51 11.2 20.51 6.56 16.67 2.78 11.96 2.78ZM 16.81 9.58C 16.62 9.67 16.43 9.71 16.23 9.71 15.75 9.71 15.28 9.44 15.05 8.98 14.35 7.56 12.91 6.67 11.3 6.67 10.58 6.67 9.99 6.09 9.99 5.38 9.99 4.66 10.58 4.08 11.3 4.08 13.92 4.08 16.27 5.52 17.42 7.85 17.74 8.49 17.46 9.27 16.81 9.58Z" />
-                     </symbol>
-                  </svg>
-               </div>
+                    </article>
+                    <article class="project-item">
+                        <div class="project-img"> <img src="./img/project_4_img.jpg" alt="project-item_img" class="project-img">
+                            <div class="project-img_link">
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#link"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#lupa"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-item_description"> <span class="description-title">claritas etiam processus</span>
+                            <p class="description-text">photography. nature</p>
+                        </div>
+                    </article>
+                    <article class="project-item">
+                        <div class="project-img"> <img src="./img/project_5_img.jpg"  alt="project-item_img" class="project-img">
+                            <div class="project-img_link">
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#link"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#lupa"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-item_description"> <span class="description-title">quam nutamus farum</span>
+                            <p class="description-text">graphic design. mock&#45;up</p>
+                        </div>
+                    </article>
+                    <article class="project-item">
+                        <div class="project-img"> <img src="./img/project_6_img.jpg" alt="project-item_img" class="project-img">
+                            <div class="project-img_link">
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#link"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="project-svg-icon">
+                                        <use xlink:href="#lupa"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-item_description"> <span class="description-title">usus legentis videntur</span>
+                            <p class="description-text">photography. holiday</p>
+                        </div>
+                    </article>
+                </div> <a href="#" class="projects-btn"><span class="projects-btn_text">load more</span></a>
+                <!-- SVG-sprite  -->
+                <div style="display: none;">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <symbol id="link" viewBox="0 0 26 26">
+                            <path d="M 23.5 11.24C 23.5 11.24 21.57 13.17 21.57 13.17 21.57 13.17 18.39 16.36 18.39 16.36 18.23 16.53 18.05 16.68 17.87 16.82 16.1 18.22 13.75 18.52 11.72 17.72 10.97 17.43 10.26 16.97 9.64 16.36 9.64 16.36 12.28 13.71 12.28 13.71 13.24 14.67 14.79 14.67 15.74 13.71 15.74 13.71 17.77 11.69 17.77 11.69 17.77 11.69 20.86 8.6 20.86 8.6 21.81 7.64 21.81 6.09 20.86 5.14 19.9 4.18 18.35 4.18 17.4 5.14 17.4 5.14 14.94 7.59 14.94 7.59 13.41 6.88 11.65 6.76 10.03 7.22 10.03 7.22 14.76 2.49 14.76 2.49 17.16 0.09 21.1 0.09 23.5 2.49 25.92 4.91 25.92 8.84 23.5 11.24ZM 14.26 8.29C 15.01 8.58 15.73 9.04 16.34 9.66 16.34 9.66 13.7 12.3 13.7 12.3 12.74 11.35 11.19 11.35 10.24 12.3 10.24 12.3 5.13 17.42 5.13 17.42 4.17 18.37 4.17 19.92 5.13 20.88 6.08 21.83 7.63 21.83 8.59 20.88 8.59 20.88 10.94 18.52 10.94 18.52 12.95 19.33 13.49 19.39 15.85 18.85 15.85 18.85 11.23 23.52 11.23 23.52 8.82 25.93 4.89 25.93 2.48 23.52 0.08 21.12 0.08 17.18 2.48 14.77 2.48 14.77 7.6 9.66 7.6 9.66 7.67 9.59 7.75 9.5 7.84 9.43 9.63 7.83 12.13 7.44 14.26 8.29Z" /> </symbol>
+                        <symbol id="lupa" viewBox="0 0 26 25">
+                            <path d="M 25.46 24.17C 25.14 24.49 24.71 24.65 24.29 24.65 23.87 24.65 23.45 24.49 23.13 24.17 23.13 24.17 18.79 19.9 18.79 19.9 16.9 21.35 14.53 22.22 11.96 22.22 5.79 22.22 0.78 17.28 0.78 11.2 0.78 5.13 5.79 0.19 11.96 0.19 18.12 0.19 23.14 5.13 23.14 11.2 23.14 13.57 22.37 15.76 21.07 17.56 21.07 17.56 25.46 21.88 25.46 21.88 26.1 22.51 26.1 23.54 25.46 24.17ZM 11.96 2.78C 7.24 2.78 3.41 6.56 3.41 11.2 3.41 15.85 7.24 19.63 11.96 19.63 14.06 19.63 15.99 18.87 17.48 17.62 17.94 17.24 18.36 16.81 18.72 16.34 19.84 14.91 20.51 13.13 20.51 11.2 20.51 6.56 16.67 2.78 11.96 2.78ZM 16.81 9.58C 16.62 9.67 16.43 9.71 16.23 9.71 15.75 9.71 15.28 9.44 15.05 8.98 14.35 7.56 12.91 6.67 11.3 6.67 10.58 6.67 9.99 6.09 9.99 5.38 9.99 4.66 10.58 4.08 11.3 4.08 13.92 4.08 16.27 5.52 17.42 7.85 17.74 8.49 17.46 9.27 16.81 9.58Z" /> </symbol>
+                    </svg>
+                </div>
             </section>
             <section class="video_main">
-               <video src="#" poster="img/video_poster.jpg"> </video>
-               <div class="video-description_wrapper">
-                  <button class="video-description_btn">
-                     <svg class="video-icon_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70px" height="70px" viewBox="0 0 70 70">
-                        <path fillRule="evenodd" d="M 31.25 18.65C 31.25 18.65 48.97 33.42 48.97 33.42 49.44 33.81 49.71 34.39 49.71 35 49.71 35.61 49.44 36.19 48.97 36.58 48.97 36.58 31.25 51.34 31.25 51.34 30.88 51.66 30.41 51.82 29.93 51.82 29.64 51.82 29.34 51.76 29.06 51.63 28.34 51.29 27.87 50.56 27.87 49.76 27.87 49.76 27.87 20.24 27.87 20.24 27.87 19.44 28.34 18.71 29.06 18.37 29.78 18.03 30.64 18.14 31.25 18.65ZM 31.99 45.36C 31.99 45.36 44.43 35 44.43 35 44.43 35 31.99 24.63 31.99 24.63 31.99 24.63 31.99 45.36 31.99 45.36ZM 59.76 59.76C 53.03 66.48 44.03 70 34.94 70 29.07 70 23.17 68.54 17.83 65.53 16.84 64.97 16.49 63.71 17.05 62.72 17.6 61.73 18.86 61.38 19.85 61.94 31.87 68.7 47.08 66.61 56.85 56.85 68.89 44.8 68.89 25.2 56.85 13.15 44.8 1.1 25.2 1.1 13.15 13.15 1.1 25.2 1.1 44.8 13.15 56.85 13.95 57.65 13.95 58.95 13.15 59.76 12.35 60.56 11.04 60.56 10.24 59.76-3.42 46.1-3.42 23.89 10.24 10.24 23.89-3.42 46.1-3.42 59.76 10.24 73.41 23.89 73.41 46.1 59.76 59.76Z" />
-                     </svg>
-                  </button>
-                  <span class="video-description_title">waxom video presentation</span>
-                  <p class="video-description_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam cum consequuntur culpa corporis.</p>
-                  <time class="video-description_time">03&#58;26</time>
-               </div>
+                <video src="#" poster="img/video_poster.jpg"> </video>
+                <div class="video-description_wrapper">
+                    <button class="video-description_btn">
+                        <svg class="video-icon_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70 70">
+                            <path d="M 31.25 18.65C 31.25 18.65 48.97 33.42 48.97 33.42 49.44 33.81 49.71 34.39 49.71 35 49.71 35.61 49.44 36.19 48.97 36.58 48.97 36.58 31.25 51.34 31.25 51.34 30.88 51.66 30.41 51.82 29.93 51.82 29.64 51.82 29.34 51.76 29.06 51.63 28.34 51.29 27.87 50.56 27.87 49.76 27.87 49.76 27.87 20.24 27.87 20.24 27.87 19.44 28.34 18.71 29.06 18.37 29.78 18.03 30.64 18.14 31.25 18.65ZM 31.99 45.36C 31.99 45.36 44.43 35 44.43 35 44.43 35 31.99 24.63 31.99 24.63 31.99 24.63 31.99 45.36 31.99 45.36ZM 59.76 59.76C 53.03 66.48 44.03 70 34.94 70 29.07 70 23.17 68.54 17.83 65.53 16.84 64.97 16.49 63.71 17.05 62.72 17.6 61.73 18.86 61.38 19.85 61.94 31.87 68.7 47.08 66.61 56.85 56.85 68.89 44.8 68.89 25.2 56.85 13.15 44.8 1.1 25.2 1.1 13.15 13.15 1.1 25.2 1.1 44.8 13.15 56.85 13.95 57.65 13.95 58.95 13.15 59.76 12.35 60.56 11.04 60.56 10.24 59.76-3.42 46.1-3.42 23.89 10.24 10.24 23.89-3.42 46.1-3.42 59.76 10.24 73.41 23.89 73.41 46.1 59.76 59.76Z" /> </svg>
+                    </button> <span class="video-description_title">waxom video presentation</span>
+                    <p class="video-description_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam cum consequuntur culpa corporis.</p>
+                    <time class="video-description_time">03&#58;26</time>
+                </div>
             </section>
             <section class="defolt"></section>
             <section class="defolt"></section>
             <section class="defolt"></section>
-         </main>
-         <footer></footer>
-      </div>
-   </body>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
 </html>

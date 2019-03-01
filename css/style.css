@@ -62,14 +62,15 @@
     width: 64px;
     height: 56px;
 }
-.logo:hover .logo-icon{
-   fill: #c7b299; 
-    
+
+.logo:hover .logo-icon {
+    fill: #c7b299;
 }
-.logo:hover .logo-title{
-   color: #c7b299; 
-    
+
+.logo:hover .logo-title {
+    color: #c7b299;
 }
+
 .header-menu_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -682,7 +683,6 @@
 .video_main {
     width: 100%;
     position: relative;
-    
 }
 
 .video_main video {
@@ -698,7 +698,6 @@
     top: 50%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
-    
 }
 
 .video-description_btn {
@@ -761,5 +760,132 @@
 }
 
 
+/* Блок "Devices"*/
+
+.devices {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px 80px 0 80px;
+    box-sizing: border-box;
+    background-color: #fbfaf8;
+}
+
+.devices-wrapper {
+    width: 40%;
+    padding: 80px 30px 80px 30px;
+    box-sizing: border-box;
+}
+
+.devices-title {
+    font-family: Raleway;
+    color: #555555;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.devices-text {
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+
+.devices-list li {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    list-style-type: none;
+    margin-left: 100px;
+    position: relative;
+}
+
+.devices-list li:before {
+    content: "";
+    background-image: url(../img/device_list_icon.png);
+    position: absolute;
+    top: 7px;
+    left: -40px;
+    width: 21px;
+    height: 21px;
+}
 
 
+/*Блок "Counters"*/
+
+.counters {
+    background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.counter {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 30px;
+}
+.counter:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    align-self: flex-end;
+}
+.counter:hover:after{
+    background-color: #c7b299;
+}
+
+.counter-icon {
+    fill: #c7b299;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.counter:hover .counter-icon {
+    fill: #ffffff;
+}
+
+.counter-value {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.counter:hover .counter-value {
+    color: #c7b299;
+}
+
+.counter-text {
+    font-family: Montserrat;
+    color: #c7b299;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.counter:hover .counter-text {
+    color: #ffffff;
+}

@@ -58,11 +58,18 @@
 }
 
 .logo-icon {
-    fill: #fff;
+    fill: #ffffff;
     width: 64px;
     height: 56px;
 }
-
+.logo:hover .logo-icon{
+   fill: #c7b299; 
+    
+}
+.logo:hover .logo-title{
+   color: #c7b299; 
+    
+}
 .header-menu_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -675,7 +682,7 @@
 .video_main {
     width: 100%;
     position: relative;
-    outline: 2px solid red;
+    
 }
 
 .video_main video {
@@ -691,7 +698,7 @@
     top: 50%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
-    outline: 2px solid red;
+    
 }
 
 .video-description_btn {

@@ -647,7 +647,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     background-color: rgba(36, 36, 36, 0.7);
     width: 370px;
     height: 237px;
@@ -926,12 +926,16 @@
 
 /*--------*/
 
-.posts-wrapper {}
+.posts-wrapper {
+    display: flex;
+    justify-content: center;
+}
 
 .post {
     display: flex;
     flex-wrap: wrap;
     max-width: 370px;
+    margin: 15px;
 }
 
 .post-img_wrapper {
@@ -945,7 +949,7 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    z-index: 3;
+    z-index: 1;
 }
 
 .post:hover .post-img_filter {
@@ -1001,7 +1005,10 @@
     line-height: 20px;
     text-align: left;
     text-transform: capitalize;
-    
+}
+
+.post-link:hover {
+    color: #ffffff;
 }
 
 .post-link:after {
@@ -1011,8 +1018,87 @@
     border: 5px solid transparent;
     border-left: 5px solid #c7b299;
     margin-left: 9px;
-    opacity: 0;
 }
+
 .post-link:hover:after {
-  opacity: 1;  
+    border-left: 5px solid #ffffff;
+}
+
+.post-date {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+}
+
+.post-date_day {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #363636;
+    min-width: 50px;
+    padding: 5px 13px 5px 13px;
+    box-sizing: border-box;
+}
+
+.post:hover .post-date_day {
+    background-color: #c7b299;
+}
+
+.post-date_day span {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.post-date_month {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #252525;
+    min-width: 50px;
+    padding: 5px 13px 5px 13px;
+    box-sizing: border-box;
+}
+
+.post:hover .post-date_month {
+    background-color: #a48d72;
+}
+
+.post-date_month span {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.posts-controls {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.post-control {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.post-control svg {
+    fill: #d1d1d1;
+    width: 22px;
+    height: 22px;
+}
+
+.post-control svg:hover {
+    fill: #c7b299;
 }

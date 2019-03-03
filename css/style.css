@@ -1188,7 +1188,6 @@
             outline: 2px solid red;
         }
         
-        
         .f-title {
             font-family: Raleway;
             color: #ffffff;
@@ -1257,12 +1256,22 @@
         
         .f-widget_wrapper {
             width: 270px;
-          height: 206px;
-            
+            height: 206px;
         }
         
         .widget-item {
-            
             max-width: 130px;
             max-height: 98px;
+            -o-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .widget-item:hover {
+            -o-transform: skew(-20deg, 20deg);
+            -ms-transform: skew(-20deg, 20deg);
+            -moz-transform: skew(-20deg, 20deg);
+            -webkit-transform: skew(-20deg, 20deg);
+            transform: skew(-20deg, 20deg);
         }

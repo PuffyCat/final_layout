@@ -1102,3 +1102,35 @@
 .post-control svg:hover {
     fill: #c7b299;
 }
+
+
+/* Блок "Partners"*/
+
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px;
+    box-sizing: border-box;
+    background: linear-gradient( rgba(17, 17, 17, 0.7), rgba(0, 0, 0, 0.7)), url(../img/partners_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partners a {
+    width: 210px;
+    text-decoration: none;
+    margin: 45px;
+   -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.partners a:hover {
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+}

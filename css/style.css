@@ -1125,7 +1125,6 @@
             max-width: 310px;
             padding: 0 20px 0 20px;
             box-sizing: border-box;
-            outline: 2px solid red;
         }
         
         .footer-about_text {
@@ -1185,7 +1184,6 @@
             max-width: 310px;
             padding: 0 20px 0 20px;
             box-sizing: border-box;
-            outline: 2px solid red;
         }
         
         .f-title {
@@ -1225,6 +1223,10 @@
             color: #c7b299;
         }
         
+        .f-post a {
+            text-decoration: none;
+        }
+        
         .f-divider {
             color: #252525;
             /* для IE */
@@ -1239,7 +1241,6 @@
             max-width: 310px;
             padding: 0 20px 0 20px;
             box-sizing: border-box;
-            outline: 2px solid red;
         }
         
         .f-twitter_link {
@@ -1251,7 +1252,6 @@
             max-width: 310px;
             padding: 0 20px 0 20px;
             box-sizing: border-box;
-            outline: 2px solid red;
         }
         
         .f-widget_wrapper {
@@ -1274,4 +1274,82 @@
             -moz-transform: skew(-20deg, 20deg);
             -webkit-transform: skew(-20deg, 20deg);
             transform: skew(-20deg, 20deg);
+        }
+        /* Блок "Footer Copyright" */
+        
+        .footer-copyright {
+            width: 100%;
+            background-color: #111111;
+            padding: 45px;
+            box-sizing: border-box;
+        }
+        
+        .footer-copyright_wrapper {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .support-list {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .support-list li:not(:first-child):before {
+            content: " | ";
+            color: #545454;
+            margin: 0 10px 0 10px;
+        }
+        
+        .support-item {
+            display: inline-block;
+            
+            list-style-type: none;
+            font-family: Montserrat;
+            color: #545454;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: right;
+        }
+        
+        .owners-list {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .owners-list li:not(:first-child):before {
+            content: " | ";
+            color: #545454;
+            margin: 0 10px 0 10px;
+        }
+        
+        .owners-item {
+            display: inline-block;
+            
+            list-style-type: none;
+            font-family: Montserrat;
+            color: #545454;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: right;
+        }
+        
+        .copyright_link {
+            text-decoration: none;
+            color: #545454;
+        }
+        
+        .copyright_link:hover {
+            color: #c7b299;
+        }
+        
+        .white {
+            color: #959595;
+        }
+        
+        .white:hover {
+            color: #ffffff;
         }

@@ -11,6 +11,7 @@
 <body>
     <div class="container">
         <header class="header-main">
+            
             <div class="header">
                 <div class="logo">
                     <a class="logo-link" href="index.html">
@@ -25,10 +26,65 @@
                     </div>
                 </div>
             </div>
-            <div class="slider">
-                <div class="slider-wrapper"> <span class="slider-text">Unique and Modern Design</span> <span class="slider-title">Portfolio PSD Template</span>
-                    <p class="slider-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod consectetur adipisicing elit.</p> <a href="#" class="slider-btn"><span class="slider-btn_text">get started</span></a> </div>
-            </div>
+
+            <section class="slaider-section">
+                <article id=slider>
+                    <!-- Slider Setup -->
+                    <input class="main-slider_input" checked type=radio name=slider id=slide1 />
+                    <input class="main-slider_input" type=radio name=slider id=slide2 />
+                    <input class="main-slider_input" type=radio name=slider id=slide3 />
+                    <input class="main-slider_input" type=radio name=slider id=slide4 />
+                    <input class="main-slider_input" type=radio name=slider id=slide5 />
+                    <!-- The Slider -->
+                    <div id=slides>
+                        <div id=overflow>
+                            <div class=inner>
+                                <article>
+                                    <div class=info> <span class="info-text">Unique and Modern Design</span> <span class="info-title">Portfolio PSD Template</span>
+                                        <p class="info-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod consectetur adipisicing elit.</p>
+                                        <a href="#" class="info-btn"> <span class="info-btn_text">get started</span> </a>
+                                    </div> <img src="./img/slide_1.jpg" /> </article>
+                                <article>
+                                    <div class=info> <span class="info-text">Unique and Modern Design</span> <span class="info-title">Portfolio PSD Template</span>
+                                        <p class="info-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod consectetur adipisicing elit.</p>
+                                        <a href="#" class="info-btn"> <span class="info-btn_text">get started</span> </a>
+                                    </div><img src="./img/slide_2.jpg" /> </article>
+                                <article>
+                                    <div class=info> <span class="info-text">Unique and Modern Design</span> <span class="info-title">Portfolio PSD Template</span>
+                                        <p class="info-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod consectetur adipisicing elit.</p>
+                                        <a href="#" class="info-btn"> <span class="info-btn_text">get started</span> </a>
+                                    </div><img src="./img/slide_3.jpg" /> </article>
+                                <article>
+                                    <div class=info> <span class="info-text">Unique and Modern Design</span> <span class="info-title">Portfolio PSD Template</span>
+                                        <p class="info-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod consectetur adipisicing elit.</p>
+                                        <a href="#" class="info-btn"> <span class="info-btn_text">get started</span> </a>
+                                    </div><img src="./img/slide_1.jpg" /> </article>
+                                <article>
+                                    <div class=info> <span class="info-text">Unique and Modern Design</span> <span class="info-title">Portfolio PSD Template</span>
+                                        <p class="info-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod consectetur adipisicing elit.</p>
+                                        <a href="#" class="info-btn"> <span class="info-btn_text">get started</span> </a>
+                                    </div><img src="./img/slide_2.jpg" /> </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div id=controls>
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                        <label for=slide3></label>
+                        <label for=slide4></label>
+                        <label for=slide5></label>
+                    </div>
+                    <!-- #controls -->
+                    <div id=active>
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                        <label for=slide3></label>
+                        <label for=slide4></label>
+                        <label for=slide5></label>
+                    </div>
+                    <!-- #active -->
+                </article>
+            </section>
         </header>
         <main>
             <section class="marketing">
@@ -339,16 +395,18 @@
                 </div>
             </section>
             <section class="footer-copyright">
-                <div class="footer-copyright_wrapper"><ul class="support-list">
-                    <li class="support-item">Copyright &copy; 2015 <a class="copyright_link white" href="#">Waxom</a></li>
-                    <li class="support-item"><a href="#" class="copyright_link">Privacy Policy</a></li>
-                    <li class="support-item"><a href="#" class="copyright_link">FAQ</a></li>
-                    <li class="support-item"><a href="#" class="copyright_link">Support</a></li>
-                </ul>
-                <ul class="owners-list">
-                    <li class="owners-item">Designed by <a href="#" class="copyright_link white">ThemeFire</a></li>
-                    <li class="owners-item">Only on <a href="#" class="copyright_link white">Envato Market</a></li>
-                </ul></div>
+                <div class="footer-copyright_wrapper">
+                    <ul class="support-list">
+                        <li class="support-item">Copyright &copy; 2015 <a class="copyright_link white" href="#">Waxom</a></li>
+                        <li class="support-item"><a href="#" class="copyright_link">Privacy Policy</a></li>
+                        <li class="support-item"><a href="#" class="copyright_link">FAQ</a></li>
+                        <li class="support-item"><a href="#" class="copyright_link">Support</a></li>
+                    </ul>
+                    <ul class="owners-list">
+                        <li class="owners-item">Designed by <a href="#" class="copyright_link white">ThemeFire</a></li>
+                        <li class="owners-item">Only on <a href="#" class="copyright_link white">Envato Market</a></li>
+                    </ul>
+                </div>
             </section>
         </footer>
     </div>

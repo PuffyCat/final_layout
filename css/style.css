@@ -261,7 +261,7 @@
             color: #ffffff;
         }
         
-        article img {
+        .slide-content img {
             width: 100%;
             -webkit-filter: brightness(40%);
             filter: brightness(40%);
@@ -273,7 +273,7 @@
             z-index: 1;
             width: 100%;
             top: 45%;
-            outline: 1px solid red;
+            
         }
         
         #controls label {
@@ -1046,7 +1046,7 @@
             line-height: 28px;
             text-align: center;
         }
-        /*--------*/
+        
         
         .posts-wrapper {
             display: flex;

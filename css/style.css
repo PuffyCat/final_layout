@@ -1599,7 +1599,6 @@ input[type="checkbox"]:checked ~ .header-menu {
     .slaider-section {
         display: none;
     }
-   
     /* Marketing */
     .marketing {
         width: 100%;
@@ -1703,7 +1702,7 @@ input[type="checkbox"]:checked ~ .header-menu {
         display: none;
     }
     /*partners */
-    .partners{
+    .partners {
         width: 100%;
         padding: 30px;
         justify-content: center;
@@ -1712,32 +1711,28 @@ input[type="checkbox"]:checked ~ .header-menu {
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .partners a{
+    .partners a {
         width: 100%;
-        
         margin: 0;
     }
-    .partners img{
+    .partners img {
         width: 100px;
-        
         margin: 10px;
     }
-    
-/*footer*/
-    .footer-content{
+    /*footer*/
+    .footer-content {
         display: none;
     }
-    .footer-copyright{
-        padding:20px;
+    .footer-copyright {
+        padding: 20px;
         box-sizing: border-box;
-        
     }
-    .footer-copyright_wrapper{
+    .footer-copyright_wrapper {
         width: 100%;
         margin: 0;
         flex-direction: column;
     }
-    .footer-copyright_wrapper ul{
+    .footer-copyright_wrapper ul {
         margin: 0 auto;
     }
 }
